@@ -1,0 +1,40 @@
+{
+  "cryptos": [
+    {
+      "id": "1",
+      "name": "Bitcoin",
+      "price": 50000,
+      "symbol": "BTC"
+    },
+    {
+      "id": "2",
+      "name": "Ethereum",
+      "price": 3500,
+      "symbol": "ETH"
+    },
+    {
+      "id": "3",
+      "name": "Cardano",
+      "price": 2,
+      "symbol": "ADA"
+    },
+    {
+      "id": "4",
+      "name": "Dogecoin",
+      "price": 0.25,
+      "symbol": "DOGE"
+    },
+    {
+      "id": "5",
+      "name": "Binance Coin",
+      "price": 600,
+      "symbol": "BNB"
+    },
+    {
+      "id": "09f9",
+      "name": "staked-ether",
+      "price": 3677,
+      "symbol": "steth"
+    }
+  ]
+}

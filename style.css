@@ -1,0 +1,113 @@
+/* Light Mode Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f4f4f9;
+  color: #000;
+  transition: background-color 0.3s, color 0.3s; /* Smooth transition for mode change */
+}
+
+#app {
+  width: 80%;
+  max-width: 600px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#crypto-form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+#crypto-form input {
+  flex: 1;
+  padding: 8px;
+}
+
+#crypto-form button {
+  padding: 8px 12px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#crypto-form button:hover {
+  background-color: #45a049;
+}
+
+#crypto-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.crypto-card {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.crypto-card button {
+  margin-left: 10px;
+}
+
+/* Dark Mode Styles */
+body.dark-mode {
+  background-color: #2e2e2e;
+  color: white;
+}
+
+body.dark-mode #crypto-container .crypto-card {
+  background-color: #444;
+  color: white;
+}
+
+body.dark-mode #crypto-form button {
+  background-color: #333;
+  color: white;
+}
+
+body.dark-mode #search-sort-container input,
+body.dark-mode #crypto-name,
+body.dark-mode #crypto-price,
+body.dark-mode #crypto-symbol {
+  background-color: #555;
+  color: white;
+}
+
+/* Dark Mode Button Styling */
+#dark-mode-toggle {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  padding: 10px 20px;
+  background-color: #444;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+#dark-mode-toggle:hover {
+  background-color: #666;
+}
+
+/* Sort dropdown styling */
+#sort-options {
+  padding: 8px;
+  font-size: 16px;
+}
